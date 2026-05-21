@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_names">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>AMOLED</item>
+        <item>RGB Gaming</item>
+        <item>Glass</item>
+    </string-array>
+    <string-array name="theme_keys">
+        <item>dark</item>
+        <item>light</item>
+        <item>amoled</item>
+        <item>rgb</item>
+        <item>glass</item>
+    </string-array>
+
+    <string-array name="bangla_mode_names">
+        <item>ফোনেটিক (Phonetic)</item>
+        <item>অ্যাভ্রো (Avro)</item>
+        <item>বিজয় (Bijoy)</item>
+    </string-array>
+    <string-array name="bangla_mode_keys">
+        <item>phonetic</item>
+        <item>avro</item>
+        <item>bijoy</item>
+    </string-array>
+
+    <string-array name="height_names">
+        <item>ছোট</item>
+        <item>সাধারণ</item>
+        <item>বড়</item>
+    </string-array>
+    <string-array name="height_values">
+        <item>compact</item>
+        <item>normal</item>
+        <item>tall</item>
+    </string-array>
+</resources>

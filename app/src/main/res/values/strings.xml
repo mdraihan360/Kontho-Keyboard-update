@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KonthoBoard AI</string>
+    <string name="ime_name">KonthoBoard AI</string>
+    <string name="settings_title">KonthoBoard Settings</string>
+    <string name="subtype_bangla">বাংলা</string>
+    <string name="subtype_english">English</string>
+
+    <!-- Setup Screen -->
+    <string name="setup_title">KonthoBoard AI সেটআপ</string>
+    <string name="setup_step1">ধাপ ১: কীবোর্ড সক্রিয় করুন</string>
+    <string name="setup_step1_desc">Settings → System → Language &amp; Input → On-screen Keyboard এ যান এবং KonthoBoard AI চালু করুন।</string>
+    <string name="setup_step2">ধাপ ২: ডিফল্ট কীবোর্ড নির্বাচন করুন</string>
+    <string name="setup_step2_desc">KonthoBoard AI কে ডিফল্ট ইনপুট মেথড হিসেবে সেট করুন।</string>
+    <string name="btn_enable_keyboard">কীবোর্ড সক্রিয় করুন</string>
+    <string name="btn_set_default">ডিফল্ট হিসেবে সেট করুন</string>
+    <string name="btn_settings">সেটিংস</string>
+    <string name="setup_done">✅ সেটআপ সম্পন্ন!</string>
+
+    <!-- Settings -->
+    <string name="pref_theme_key">pref_theme</string>
+    <string name="pref_theme_title">থিম</string>
+    <string name="pref_vibration_key">pref_vibration</string>
+    <string name="pref_vibration_title">ভাইব্রেশন</string>
+    <string name="pref_sound_key">pref_sound</string>
+    <string name="pref_sound_title">কী সাউন্ড</string>
+    <string name="pref_autocorrect_key">pref_autocorrect</string>
+    <string name="pref_autocorrect_title">অটো কারেকশন</string>
+    <string name="pref_suggestion_key">pref_suggestion</string>
+    <string name="pref_suggestion_title">শব্দ সাজেশন</string>
+    <string name="pref_height_key">pref_height</string>
+    <string name="pref_height_title">কীবোর্ড উচ্চতা</string>
+    <string name="pref_bangla_mode_key">pref_bangla_mode</string>
+    <string name="pref_bangla_mode_title">বাংলা মোড</string>
+    <string name="voice_listening">শুনছি...</string>
+    <string name="voice_tap_to_speak">কথা বলতে মাইক চাপুন</string>
+    <string name="voice_error">ভয়েস ইনপুট ব্যর্থ হয়েছে</string>
+</resources>

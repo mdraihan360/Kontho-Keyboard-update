@@ -1,0 +1,3 @@
+-keep class com.konthoboard.ai.** { *; }
+-keepattributes *Annotation*
+-dontwarn kotlin.**

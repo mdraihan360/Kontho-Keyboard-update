@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="থিম">
+        <ListPreference
+            android:key="pref_theme"
+            android:title="থিম নির্বাচন"
+            android:summary="বর্তমান থিম: Dark"
+            android:entries="@array/theme_names"
+            android:entryValues="@array/theme_keys"
+            android:defaultValue="dark"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="টাইপিং">
+        <SwitchPreferenceCompat
+            android:key="pref_vibration"
+            android:title="ভাইব্রেশন"
+            android:summary="কী চাপলে কম্পন"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            android:key="pref_sound"
+            android:title="কী সাউন্ড"
+            android:summary="কী চাপলে শব্দ"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            android:key="pref_autocorrect"
+            android:title="অটো কারেকশন"
+            android:summary="ভুল বানান স্বয়ংক্রিয়ভাবে ঠিক করবে"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            android:key="pref_suggestion"
+            android:title="শব্দ সাজেশন"
+            android:summary="টাইপ করার সময় শব্দ সাজেস্ট করবে"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:key="pref_bangla_mode"
+            android:title="বাংলা মোড"
+            android:entries="@array/bangla_mode_names"
+            android:entryValues="@array/bangla_mode_keys"
+            android:defaultValue="phonetic"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:key="pref_height"
+            android:title="কীবোর্ড উচ্চতা"
+            android:entries="@array/height_names"
+            android:entryValues="@array/height_values"
+            android:defaultValue="normal"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="প্রাইভেসি">
+        <SwitchPreferenceCompat
+            android:key="pref_incognito"
+            android:title="ইনকগনিটো মোড"
+            android:summary="টাইপিং ইতিহাস সংরক্ষণ হবে না"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
