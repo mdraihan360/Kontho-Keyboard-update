@@ -86,8 +86,9 @@ object KeyboardLayout {
         KeyDef("ে",'\u09CB'.code.let{'\u09C7'.code}), KeyDef("ো",'\u09CB'.code),
         KeyDef("্",'\u09CD'.code), KeyDef("ৃ",'\u09C3'.code),
         KeyDef("ং",'ং'.code), KeyDef("ঃ",'ঃ'.code), KeyDef("ঁ",'ঁ'.code),
-        KeyDef("ৎ",'ৎ'.code), KeyDef("ড়",'ড়'.code), KeyDef("ঢ়",'ঢ়'.code),
-        KeyDef("য়",'য়'.code), KeyDef("।", '।'.code), KeyDef("॥",'॥'.code)
+        KeyDef("ৎ",'ৎ'.code),     KeyDef("ড়", "ড়"[0].code), KeyDef("ঢ়", "ঢ়"[0].code),
+    KeyDef("য়", "য়"[0].code), KeyDef("|", '|'.code), KeyDef("||", "||"[0].code)
+
     )
 
     // ── NUMBER ROW ──────────────────────────────────────────────
